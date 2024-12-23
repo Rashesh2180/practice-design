@@ -14,7 +14,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   const handleToggle = () => {
-    setOpen(prev => !prev);
+    setOpen((prev) => !prev);
   };
 
   // Disable scrolling when the menu is open
@@ -33,13 +33,13 @@ const Header = () => {
 
   return (
     <div className="max-w-[1851.08px] bg-white z-[1000000000000000] relative xl:px-10 px-5 mx-auto flex justify-between items-center pt-[21px] pb-[22px]">
-      <div className="h-10 w-[157px]">
+      <a href="/" className="h-10 w-[157px]">
         <img
           src="/assets/svg/header/route_logo.svg"
           alt=""
           className="h-full w-full object-cover"
         />
-      </div>
+      </a>
 
       <ul className="lg:flex hidden gap-2 items-center">
         {navlist.map((ele) => (

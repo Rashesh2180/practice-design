@@ -8,11 +8,13 @@ const Footer = () => {
       <div className=" max-w-[1322px] pb-20 mx-auto px-4 ">
         <div className="flex justify-between  flex-wrap gap-5">
           <ul>
-            <img
+          <button  className="  h-10 w-[157px]">
+          <img
               src="/assets/footer/Frame 1000009354.svg"
-              className=" h-10 w-[157px]"
+              className=" cursor-pointer"
               alt=""
             />
+          </button>
             <p className="mt-[30px] section-subtitle text-white max-w-[300px]  !text-start">
               Corporate business typically refers to large-scale mansola it
               enterprises or organizat
