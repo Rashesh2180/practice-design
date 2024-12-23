@@ -116,7 +116,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className=" max-w-[1322px]  px-4 mx-auto    lg:absolute -bottom-52  w-full left-1/2 lg:-translate-x-1/2 ">
+      <div className=" max-w-[1322px]  px-4 mx-auto  max-lg:mt-14   lg:absolute -bottom-52  w-full left-1/2 lg:-translate-x-1/2 ">
        <div className="relative bg-white custom-shadow rounded-rounded-20 mx-auto">
        <div className=" py-20 pl-5 xl:pl-[110px]">
           <h1 className=" section-title">Let’s Do Great!</h1>

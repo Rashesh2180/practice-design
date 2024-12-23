@@ -5,7 +5,7 @@ const HomeBanner = () => {
   return (
     <div className=" min-h-[calc(100vh-101px)] bg-secondary relative flex flex-col justify-center items-center">
       <div className=" max-w-[1015.54px] mx-auto px-4 flex flex-col justify-center items-center">
-        <h1 className=" text-white text-center max-lg:text-[60px] text-[80px] leading-[90px] font-bold">
+        <h1 className=" text-white text-center max-lg:text-[60px] max-sm:text-4xl text-[80px] leading-[90px] font-bold">
           Journey with Confidence <br />{" "}
           <span className=" text-primary">Migrate</span> with Us
         </h1>
