@@ -9,6 +9,11 @@ import Offer from './components/offer/Offer';
 import ClientTestumonials from './components/clienttestimonials/ClientTestumonials';
 import Categories from './components/categories/Categories';
 import ProcessOverview from './components/processOverview/ProcessOverview';
+import VisaCategoey from './components/visacategory/VisaCategoey';
+import Contact from './components/contactus/Contact';
+import Blog from './components/blog/Blog';
+import Logos from './components/linear/Logos';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -25,6 +30,11 @@ function App() {
       <ClientTestumonials/>
       <Categories/>
       <ProcessOverview/>
+      <VisaCategoey/>
+      <Contact/>
+      <Blog/>
+      <Logos/>
+      <Footer/>
     
     </div>
   );

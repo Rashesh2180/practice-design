@@ -19,7 +19,7 @@ body {
 }
 
 .section-subtitle{
-  @apply text-center leading-[30px] font-normal
+  @apply text-center leading-[30px] font-normal  text-base
 }
 .section-title{
   @apply text-[50px] font-bold leading-[60px] mt-[10px]
@@ -33,3 +33,18 @@ body {
 .card-title{
   @apply text-[22px] leading-lead-30 text-secondary font-bold
 }
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll-left 20s linear infinite;
+}
+
+
