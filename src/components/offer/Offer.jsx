@@ -76,7 +76,7 @@ const Offer = () => {
         </div>
 
         {/* input section */}
-       <div className="w-full md:absolute lg:-bottom-44 md:-bottom-60 max-md:mt-20  left-1/2 md:-translate-x-1/2 transform max-w-[1322px] mx-auto px-4 ">
+       <div className="w-full md:absolute lg:-bottom-[275px] md:-bottom-60 max-md:mt-20  left-1/2 md:-translate-x-1/2 transform max-w-[1322px] mx-auto px-4 ">
        <div className="  bg-primary max-md:flex-col flex justify-between max-lg:gap-5 max-md:px-10  rounded-rounded-20">
           <div className=" py-20 lg:pl-20 md:pl-10 flex-1 relative ">
             <h1 className=" section-title text-white !mt-0">

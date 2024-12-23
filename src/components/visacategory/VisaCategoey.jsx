@@ -52,15 +52,15 @@ const VisaCategoey = () => {
               </div>
             ))}
         </div>
-        <div className=" flex-1 relative  max-lg:mx-auto max-w-[620px] sm:pr-10">
-          <div className=" max-w-[310.18px] ml-auto max-sm:mx-auto h-[454.93px] sm:rotate-[11deg]  border-2 border-primary rounded-rounded-20 overflow-hidden">
+        <div className=" flex-1 relative max-lg:flex gap-10 justify-center max-sm:flex-col  w-full  max-lg:mx-auto lg:max-w-[620px] lg:pr-10">
+          <div className=" max-w-[310.18px] ml-auto max-sm:mx-auto h-[454.93px] lg:rotate-[11deg]  border-2 border-primary rounded-rounded-20 overflow-hidden">
             <img
               src="https://i.pinimg.com/474x/60/d6/6f/60d66f9ccbb3855c6d4521725ba91a0d.jpg"
               alt=""
               className=" h-full w-full object-contain object-left"
             />
           </div>
-          <div className=" max-w-[310.18px] w-full sm:absolute top-[112px] right-[187px] mx-auto sm:ml-auto h-[454.93px] max-sm:mt-5 sm:-rotate-[11deg] z-10  border-[5px] border-primary rounded-rounded-20 overflow-hidden">
+          <div className=" max-w-[310.18px] w-full lg:absolute top-[100px]  left-20 mx-auto sm:ml-auto h-[454.93px] max-sm:mt-5 lg:-rotate-[11deg] z-10  border-[5px] border-primary rounded-rounded-20 overflow-hidden">
             <img
               src="https://i.pinimg.com/736x/5d/9c/4a/5d9c4a1bb2eb2fa0db95e75e60b1b94b.jpg"
               alt=""
@@ -68,14 +68,14 @@ const VisaCategoey = () => {
             />
           </div>
           <img
-            className=" w-[124.26px] h-[49.42px] absolute top-0 left-[220px]"
+            className=" w-[124.26px] h-[49.42px] max-lg:hidden absolute top-0 left-[170px]"
             src="/assets/svg/visacategory/rotation.svg"
             alt=""
           />
           <img
             src="/assets/svg/visacategory/tail.svg"
             alt=""
-            className=" h-[37.07px] w-[37.07px] absolute top-32 left-16"
+            className=" h-[37.07px] w-[37.07px]  max-lg:hidden absolute top-28 left-3"
           />
         </div>
       </div>
