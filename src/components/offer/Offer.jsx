@@ -86,7 +86,7 @@ const Offer = () => {
               Custom Software Development Tailored Solutions for Your Business
               Custom Software Development Tailored Solutions{" "}
             </p>
-            <div className=" mt-10 max-w-[560px] flex items-center gap-[10px]">
+            <div className=" mt-10 max-w-[560px] flex-wrap flex items-center gap-[10px]">
               <input
                 type="text"
                 className=" outline-none w-full section-subtitle !text-start text-white bg-transparent border border-white rounded-full px-[30px] py-[15px]"

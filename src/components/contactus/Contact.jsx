@@ -16,7 +16,7 @@ const Contact = () => {
             <img
               src="/assets/images/conatctus/Image.png"
               alt=""
-              className=" max-w-[589.75px] w-full h-[671.29px] mt-6 z-10"
+              className=" max-w-[589.75px] w-full h-[671.29px] max-sm:h-[400px] mt-6 z-10"
             />
           </div>
           <div className="flex-1">
@@ -26,7 +26,7 @@ const Contact = () => {
             </h1>
             <div className=" bg-white p-10 mt-10 rounded-rounded-20">
               <form action="">
-                <div className="flex gap-[30px] items-center">
+                <div className="flex gap-[30px] items-center flex-wrap">
                   <div className="flex-1 ">
                     <label
                       htmlFor=""

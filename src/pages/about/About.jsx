@@ -30,7 +30,7 @@ const About = () => {
                 className=" h-full w-full object-cover "
                 alt=""
               />
-              <div className="  rounded-[20px] bg-primary py-10 pr-8 pl-[38px] absolute top-9 left-[46px]">
+              <div className="  rounded-[20px] bg-primary py-10 pr-8 pl-[38px] absolute top-9 max-sm:left-0 left-[46px]">
                 <h1 className=" text-[50px] leading-[60px] font-bold text-white">
                   10+
                 </h1>

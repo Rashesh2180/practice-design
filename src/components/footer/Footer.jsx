@@ -101,7 +101,7 @@ const Footer = () => {
        <img src="/assets/footer/Rectangle 5318.png" alt="" className=" w-[284.94px] h-[269.95px] absolute left-1 top-[22px]" />
       </div>
       <div className="  bg-border-color h-[1px] w-full"></div>
-      <div className="max-w-[1322px]  mx-auto px-4 py-[30px] flex justify-between items-center">
+      <div className="max-w-[1322px]  mx-auto px-4 py-[30px] flex justify-between flex-wrap items-center">
         <div className=" text-[16px] leading-lead-30 text-[#FFFFFF]">
         © Yoursitename  2024 | All Rights Reserved
         </div>
