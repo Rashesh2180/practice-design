@@ -23,7 +23,7 @@ const About = () => {
               />
             </div>
           </div>
-          <div className="flex gap-[19px] items-start max-sm:items-center sm:-mt-3">
+          <div className="flex gap-[19px] max-sm:gap-[25px] items-start max-sm:items-center sm:-mt-3">
             <div className=" max-w-[307.97px] relative w-full h-[267px] rounded-[20px] overflow-hidden">
               <img
                 src="/assets/images/about/about_dots.png"
